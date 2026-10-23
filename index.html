@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080b27">
+    <title>Un mensaje para ti 🌌</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Fondo del cielo -->
+    <div class="cielo">
+        <div class="luna"></div>
+        <div class="resplandor"></div>
+        <div class="estrellas" id="estrellas"></div>
+        <div class="particulas" id="particulas"></div>
+    </div>
+
+    <!-- Contenido principal -->
+    <main class="contenedor">
+
+        <div class="etiqueta">
+            ✦ UN MENSAJE PARA TI ✦
+        </div>
+
+        <div class="icono-cielo">🌙</div>
+
+        <h1>Incluso en la noche<br>
+            <span>más oscura...</span>
+        </h1>
+
+        <p class="introduccion">
+            Hay palabras que a veces cuesta decir,
+            pero que merecen ser escuchadas.
+        </p>
+
+        <div class="separador">
+            <span>✧</span>
+            <div></div>
+            <span>✧</span>
+        </div>
+
+        <p class="pregunta">
+            ¿Me permites decirte algo?
+        </p>
+
+        <button id="boton" onclick="mostrarCarta()">
+            <span>Leer mi mensaje</span>
+            <span class="flecha">→</span>
+        </button>
+
+        <!-- Carta oculta -->
+        <section id="carta" class="carta oculta">
+            <div class="estrella-carta">✦</div>
+
+            <h2>Perdóname</h2>
+
+            <p>
+                Quiero tomarme un momento para decirte
+                algo que de verdad siento.
+            </p>
+
+            <p>
+                Lamento las cosas que pasaron y si mis
+                palabras o acciones te hicieron sentir mal.
+                No era justo que tuvieras que pasar por eso.
+            </p>
+
+            <p>
+                No quiero poner excusas ni fingir que
+                nada pasó. Reconozco que puedo equivocarme
+                y quiero aprender de mis errores.
+            </p>
+
+            <p>
+                No puedo cambiar lo que ya ocurrió,
+                pero sí puedo esforzarme para hacerlo
+                mejor de ahora en adelante.
+            </p>
+
+            <p>
+                No espero que todo se arregle de inmediato.
+                Respeto lo que sientes y el tiempo que
+                necesites. Solo quería que supieras que
+                mi disculpa es sincera.
+            </p>
+
+            <div class="firma">
+                <span>Con mucho cariño,</span>
+                <strong>alguien que espera poder arreglar las cosas</strong>
+            </div>
+
+            <div class="cierre">☾ ✧ ☽</div>
+        </section>
+
+        <p class="pie">
+            Algunas palabras brillan incluso en la oscuridad.
+        </p>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
